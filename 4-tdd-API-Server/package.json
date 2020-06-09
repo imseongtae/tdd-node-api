@@ -1,0 +1,23 @@
+{
+  "name": "4-tdd-API-Server",
+  "version": "1.0.0",
+  "description": "- mocha, should, superTest",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha index.spec.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "mocha": "^7.2.0",
+    "should": "^13.2.3",
+    "supertest": "^4.0.2"
+  }
+}
